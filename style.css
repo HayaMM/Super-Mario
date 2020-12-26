@@ -14,10 +14,13 @@ background-size: 98% 90%;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-/* .superMario{
-
+.superMario{
+position: relative;
+left: 50px;
+top: 342px;
 
 }
+/* 
 .obstacle{
 
 } */
