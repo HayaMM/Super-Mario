@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.gameSpace{
+width: 1200px;
+height: 500px;
+/*the Game's border*/
+border: 2px solid black;
+/*To center the Game's border*/
+margin: auto;
+background-image: url('https://cdn.dribbble.com/users/1100256/screenshots/12294406/media/679e0dcabffe421e242a55ff7e372582.jpg?compress=1&resize=1200x900');
+background-size: 98% 90%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+/* .superMario{
+
+
+}
+.obstacle{
+
+} */
