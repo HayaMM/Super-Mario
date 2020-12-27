@@ -19,8 +19,6 @@ background-attachment: fixed;
 position: relative;
 left: 50px;
 top: 342px;
- /* Mario jumping*/
-animation: marioM 1s infinite;
 }
 .obstacle{
         /* obstacle's position is relative to the game space*/
@@ -40,4 +38,10 @@ animation: marioM 1s infinite;
     30%{top: 150px;}
     70%{top: 150px;}
     100%{top: 350px;}
+    }
+    .animation{
+/* Mario jumping*/
+animation: marioM 500ms;
+
+
     }
