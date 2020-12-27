@@ -36,7 +36,7 @@ footer{
   
   li a {
     display:block;
-    color: #f1f1f1;
+    color:azure;
     padding: 8px 16px;
     text-decoration: none;
     
@@ -44,10 +44,25 @@ footer{
   
   li a:hover {
     background-color: #580000;
-    color: #ffffff;
+    color: azure;
   }
 
-
+  .button{border: none;
+background-color: #0b1466;
+color:azure;
+padding: 15px 32px;
+text-align: center;
+font-size: 20px;
+margin: 40px 2px;
+cursor: pointer;
+width: 50%;
+}
+#centerimg{
+    display: block;
+    margin: auto;
+    justify-content: center;
+  
+}
 .gameSpace{
 width: 1200px;
 height: 500px;
