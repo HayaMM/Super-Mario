@@ -21,7 +21,15 @@ left: 50px;
 top: 342px;
 }
 .obstacle{
+        /* obstacle's position is relative to the game space*/
     position: relative;
-    left: 180px;
+    left: 1117px;
     top: 250px;
+     /* move linearly and infinitey*/
+    animation: obstacleM 2s infinite linear ;
 } 
+ /* Animation of obstacle*/
+@keyframes obstacleM{
+0%{left: 470px;}
+100%{left: -20px;}
+}
