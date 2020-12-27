@@ -24,7 +24,8 @@ top: 342px;
         /* obstacle's position is relative to the game space*/
     position: relative;
     left: 1117px;
-    top: 250px;
+    /* top was 250*/
+    top: 277px;
      /* move linearly and infinitey*/
     animation: obstacleM 2s infinite linear ;
 } 
