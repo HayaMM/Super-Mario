@@ -22,7 +22,7 @@ $(document).ready(function () {
         // parseInt used to return only the number without px
         var marioPo = parseInt(window.getComputedStyle(mario).getPropertyValue("top"));
         var obstaclePo = parseInt(window.getComputedStyle(obstacle).getPropertyValue("left"));
-        if (obstaclePo < 40 && obstaclePo > 0 && marioPo >= 277) {
+        if (obstaclePo < 50 && obstacleobstaclePo > 0 && marioPo >= 277) {
             obstaclePo.style.animation = "none";
             obstaclePo.style.display = "none";
             alert("You hit obstacle");
