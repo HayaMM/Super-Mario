@@ -77,18 +77,23 @@ background-attachment: fixed;
 }
 .superMario{
     /* Mario's position is relative to the game space*/
+    /*/alt="Mario Run"*  style="width: 90px;">background-image: url("https://freepngimg.com/thumb/mario/20698-7-mario-transparent-background.png");*/
+   
+  
 position: relative;
 left: 50px;
 top: 342px;
 }
 .obstacle{
         /* obstacle's position is relative to the game space*/
+
     position: relative;
     left: 1117px;
     /* top was 250*/
-    top: 277px;
+    top: 290px;
      /* move linearly and infinitey*/
-    animation: obstacleM 2s infinite linear ;
+     animation: obstacleM 2s infinite linear ;
+    
 } 
  /* Animation of obstacle*/
 @keyframes obstacleM{

@@ -20,14 +20,21 @@ $(document).ready(function () {
     var clash = setInterval(function () {
         // get mario's position and obstcale
         // parseInt used to return only the number without px
-        var marioPo = parseInt(window.getComputedStyle(mario).getPropertyValue("top"));
-        var obstaclePo = parseInt(window.getComputedStyle(obstacle).getPropertyValue("left"));
+        var mmch = $('#img')[0];
+
+        console.log(mmch);
+        var marioPo = parseInt(window.getComputedStyle(mmch).getPropertyValue("top"));
+
+        console.log(marioPo);
+        var mmob = $('.obstacle')[0];
+        var obstaclePo = parseInt(window.getComputedStyle(mmob).getPropertyValue("left"));
+        console.log(mmob);
         if (obstaclePo < 50 && obstacleobstaclePo > 0 && marioPo >= 277) {
             obstaclePo.style.animation = "none";
             obstaclePo.style.display = "none";
             alert("You hit obstacle");
         }
-    }, 10);
+    }, 10000000);
 
 
 })
