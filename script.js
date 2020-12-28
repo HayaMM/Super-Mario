@@ -37,12 +37,9 @@ $(document).ready(function () {
             //obstaclePo.style.animation = "none";
             //obstaclePo.style.display = "none";
             alert("You hit obstacle");
+            //to reload the page to play again 
             location.reload();
         }
-
+        // set interval every 50 ms
     }, 50);
-    // });
-
-
-
 })

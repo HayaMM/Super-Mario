@@ -15,7 +15,6 @@ footer{
     width: 100%;
     position: relative;
 }
-
 .Header {
     background-color:#5f0000;
     padding-left: 0;
@@ -31,22 +30,17 @@ footer{
     background-color: #0b1466;
     color: azure;
     text-align: center;
-    
   }
-  
   li a {
     display:block;
     color:azure;
     padding: 8px 16px;
     text-decoration: none;
-    
   }
-  
   li a:hover {
     background-color: #580000;
     color: azure;
   }
-
   .button{border: none;
 background-color: #0b1466;
 color:azure;
@@ -55,7 +49,7 @@ text-align: center;
 font-size: 20px;
 margin: 40px 2px;
 cursor: pointer;
-width: 50%;
+width: 100%;
 }
 #centerimg{
     display: block;
@@ -71,30 +65,24 @@ border: 2px solid black;
 /*To center the Game's border*/
 margin: auto;
 background-image: url('https://cdn.dribbble.com/users/1100256/screenshots/12294406/media/679e0dcabffe421e242a55ff7e372582.jpg?compress=1&resize=1200x900');
-background-size: 98% 90%;
+background-size: 98% 98%;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
 .superMario{
     /* Mario's position is relative to the game space*/
-    /*/alt="Mario Run"*  style="width: 90px;">background-image: url("https://freepngimg.com/thumb/mario/20698-7-mario-transparent-background.png");*/
-   
-  
 position: relative;
 left: 50px;
-top: 342px;
+top: 360px;
 }
 .obstacle{
         /* obstacle's position is relative to the game space*/
-
     position: relative;
     left: 1117px;
-    /* top was 250*/
-    top: 290px;
+    top: 310px;
      /* move linearly and infinitey*/
      animation: obstacleM 2s infinite linear ;
-    
 } 
  /* Animation of obstacle*/
 @keyframes obstacleM{
@@ -110,6 +98,4 @@ top: 342px;
     .animation{
 /* Mario jumping*/
 animation: marioM 500ms;
-
-
     }
