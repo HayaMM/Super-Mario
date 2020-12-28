@@ -17,24 +17,32 @@ $(document).ready(function () {
             $('.superMario').removeClass("animation");
         }, 500);
     });
-    var clash = setInterval(function () {
+
+    //$('.test').click(function () {
+
+    setInterval(function () {
         // get mario's position and obstcale
         // parseInt used to return only the number without px
-        var mmch = $('#img')[0];
-
-        console.log(mmch);
+        var mmch = $('.superMario')[0];
+        //console.log(mmch);
         var marioPo = parseInt(window.getComputedStyle(mmch).getPropertyValue("top"));
 
-        console.log(marioPo);
+        //console.log(marioPo);
         var mmob = $('.obstacle')[0];
         var obstaclePo = parseInt(window.getComputedStyle(mmob).getPropertyValue("left"));
-        console.log(mmob);
-        if (obstaclePo < 50 && obstacleobstaclePo > 0 && marioPo >= 277) {
-            obstaclePo.style.animation = "none";
-            obstaclePo.style.display = "none";
+        //  console.log(obstaclePo);
+
+        if (obstaclePo < 50 && obstaclePo > 0 && marioPo > 290) {
+            console.log("enter");
+            //obstaclePo.style.animation = "none";
+            //obstaclePo.style.display = "none";
             alert("You hit obstacle");
+            location.reload();
         }
-    }, 10000000);
+
+    }, 50);
+    // });
+
 
 
 })
