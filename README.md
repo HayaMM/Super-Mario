@@ -17,9 +17,9 @@
 * As a player, I want to have challenging game, so that I can be more excited.
 
 ## Development stories:
-*Super Mario* Run It’s a famous game, I chose it because it’s my favorite game.
-I developed a very *simple version*.
-The first page contains *hyperlink* in the top of the page that takes to the *same page*, bellow it the name of the game *“Super Mario Run”* with the *image* of the character, and a *“play”* button takes to the *game page*, there is a *footer* in the button of home page.
+**Super Mario Run** It’s a famous game, I chose it because it’s my favorite game.
+I developed a very **simple version**.
+The first page contains **hyperlink** in the top of the page that takes to the **same page**, bellow it the name of the game **“Super Mario Run”** with the **image** of the character, and a **“play”** button that takes to the **game page**, there is a **footer** in the button of home page.
 ### Screenshot of home page: 
 
 # ![](/images/homePage.png)
