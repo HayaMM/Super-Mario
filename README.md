@@ -1,1 +1,45 @@
-# project1
+ # Super Mario Run  <img src="/images/MarioRun.png" width="100">
+ ## Technologies used:
+* VS code separate HTML / CSS / JavaScript files.
+* jQuery.
+* GitHub.
+## Wireframes: 
+<img src="/images/wirefram.jpg" width="500">
+
+## User stories:
+
+* As a user, I want to have good back-ground color, so that I can be comfortable to look at.
+* As a player, I want to have a message, so that I know that game is over.
+* As a player, I want to have suitable size for the characters, so that I can track the characters' path.
+* As a user, I want to have home page, so that I can enter the game.
+* As a user, I want to have ability to return the home page, so that I can access the website.
+* As a user, I want to have symmetrical design, so that I can see the site consistency.
+* As a player, I want to have challenging game, so that I can be more excited.
+
+## Development stories:
+**Super Mario Run** It’s a famous game, I chose it because it’s my favorite game.
+I developed a very **simple version**.
+The first page contains **hyperlink** in the top of the page that takes to the **same page**, bellow it the name of the game **“Super Mario Run”** with the **image** of the character, and a **“play”** button that takes to the **game page**, there is a **footer** in the button of home page.
+### Screenshot of home page: 
+
+# ![](/images/homePage.png)
+
+The game page contains the same **hyper link** and **footer**, and in the **middle of the page** we have the **game board** inside it the **character** and **obstacles** that is moving **linearly** towards the character, when **click** the **game board** the character will **jump** by using **“eventListeners”** and **avoid the obstacles**. If character **didn’t** avoid the obstacles an alert message appears to show the **“You lose”**.
+
+### Screenshot of game page:
+
+# ![](/images/gamePage.png)
+
+game is over 
+
+# ![](/images/loseAlert.png)
+
+## Problem solved and functions
+I had a **problem** when I tried to determine collision, so that I use **“setInterval”** function to run every **50 ms** and get **valuables** of both the character and obstacle and set **if** statement to check the **collision** values if conditions are met, will apply alert message 
+and then reload the page by using **location.reload();**
+my favorite function is called when **click** the game space it will perform an **animation** function to the charchter.
+
+## Future work 
+I am going to add a better response and greater challenges.
+
+
