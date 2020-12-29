@@ -26,3 +26,13 @@ The first page contains **hyperlink** in the top of the page that takes to the *
 
 The game page contains the same **hyper link** and **footer**, and in the **middle of the page** we have the **game board** inside it the **character** and **obstacles** that is moving **linearly** towards the character, when **click** the **game board** the character will **jump** by using **“eventListeners”** and **avoid the obstacles**. If character **didn’t** avoid the obstacles an alert message appears to show the **“You lose”**.
 
+### Screenshot of game page:
+
+# ![](/images/gamePage.png)
+
+game is over 
+
+# ![](/images/loseAlert.png)
+
+
+
