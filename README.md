@@ -34,5 +34,12 @@ game is over
 
 # ![](/images/loseAlert.png)
 
+## Problem solved and functions
+I had a **problem** when I tried to determine collision, so that I use **“setInterval”** function to run every **50 ms** and get **valuables** of both the character and obstacle and set **if** statement to check the **collision** values if conditions are met, will apply alert message 
+and then reload the page by using **location.reload();**
+my favorite function is called when **click** the game space it will perform an **animation** function to the charchter.
+
+## Future work 
+I am going to add a better response and greater challenges.
 
 
