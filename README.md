@@ -35,7 +35,7 @@
 
  Contains the same **hyper link** and **footer**.
  
- In the **middle of the page** we have the **game board** or the **game space** inside it  **Mario** and the **obstacle** that is moving **linearly** towards  Mario, when **click** the **game board** the character will **jump** by adding **“animation class”** and **avoid the obstacles**. If Mario **didn’t** avoid the obstacle an alert message will appears to show that **“You lose”**.
+ In the **middle of the page** we have the **game board** or the **game space** inside it  **Mario** and the **obstacle** that is moving **linearly** towards  Mario, when **click** the **game board** Mario will **jump** by adding **“animation class”** and **avoid the obstacles**. If Mario **didn’t** avoid the obstacle an alert message will appears to show that **“You lose”**.
 
 ### Screenshot of game page:
 
@@ -47,14 +47,14 @@ Game is over:
 
 
 ## Problem solved and functions
-I had a **problem** when I tried to determine collision, so I used **“setInterval”** function to run every **50 ms** and get the position **valuables** of both Mario and the obstacle and set **if** statement to check the **collision** values if conditions are met, will apply an alert message 
+I had a **problem** when I tried to determine collision, so I used **“setInterval()”** function to run every **50 ms** and get the position **valuables** of both Mario and the obstacle and set **if** statement to check the **collision** values if conditions are met, will apply an alert message 
 and then reload the page by using:
  **location.reload();** 
  that allows the player to keep playing.
 
 
 My **favorite function** is called when **click** the game space it will performs an **animation** function,
-by using jquery to select the game space class and call a function that adds an animation class to the character.
+by using jquery to select the game space class and call a function that adds an animation class to Mario class.
 
 
 ## Future work 
