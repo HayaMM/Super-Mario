@@ -5,7 +5,9 @@
 * GitHub.
 * Git Bash.
 ## Wireframes: 
+
 <img src="/images/wirefram.jpg" width="500">
+
 
 ## User stories:
 
@@ -17,33 +19,48 @@
 * As a user, I want to have symmetrical design, so that I can see the site consistency.
 * As a player, I want to have challenging game, so that I can be more excited.
 
+
 ## Development stories:
-**Super Mario Run** It’s a famous game, I chose it because it’s my favorite game.
-I developed a very **simple version**.
-The first page contains **hyperlink** in the top of the page that takes to the **same page**, bellow it the name of the game **“Super Mario Run”** with the **image** of the character, and a **“play”** button that takes to the **game page**, there is a **footer** in the button of home page.
-### Screenshot of home page: 
+**Super Mario Run** It’s a famous game, I chose it because it’s my favorite game, I developed a very **simple version**.
+
+* **Home page:**
+
+ Contains **hyperlink** at the top of the page that links to the **same page**, followed by the name of the game **“Super Mario Run”** with the **image** of Mario, and a **“play”** button that takes to the **game page**, finally there is a **footer** at the botton.
+
+### Screenshot of the home page: 
 
 # ![](/images/homePage.png)
 
-The game page contains the same **hyper link** and **footer**, and in the **middle of the page** we have the **game board** inside it the **character** and **obstacles** that is moving **linearly** towards the character, when **click** the **game board** the character will **jump** by using **“eventListeners”** and **avoid the obstacles**. If character **didn’t** avoid the obstacles an alert message appears to show the **“You lose”**.
+* **Game page:**
+
+ Contains the same **hyper link** and **footer**.
+ 
+ In the **middle of the page** we have the **game board** or the **game space** inside it  **Mario** and the **obstacle** that is moving **linearly** towards  Mario, when **click** the **game board** the character will **jump** by adding **“animation class”** and **avoid the obstacles**. If Mario **didn’t** avoid the obstacle an alert message will appears to show that **“You lose”**.
 
 ### Screenshot of game page:
 
 # ![](/images/gamePage.png)
 
-game is over 
+Game is over:
 
 # ![](/images/loseAlert.png)
 
+
 ## Problem solved and functions
-I had a **problem** when I tried to determine collision, so that I use **“setInterval”** function to run every **50 ms** and get **valuables** of both the character and obstacle and set **if** statement to check the **collision** values if conditions are met, will apply alert message 
+I had a **problem** when I tried to determine collision, so I used **“setInterval”** function to run every **50 ms** and get the position **valuables** of both Mario and the obstacle and set **if** statement to check the **collision** values if conditions are met, will apply an alert message 
 and then reload the page by using:
  **location.reload();** 
  that allows the player to keep playing.
 
-My **favorite function** is called when **click** the game space it will perform an **animation** function to the charchter.
+
+My **favorite function** is called when **click** the game space it will performs an **animation** function,
+by using jquery to select the game space class and call a function that adds an animation class to the character.
+
 
 ## Future work 
-I am going to add a better response and greater challenges.
+I will work to make the site more responsive and interactive with the user such as 
+adding audios and count score, with more challenges.
+
+
 
 
